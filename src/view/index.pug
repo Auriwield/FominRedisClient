@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    body
+      .reddis
+        .reddis-tree
+          #app
+            item(:model="treeData")
+        .reddis-cli
+          textarea#command-line(placeholder='Type a command here...', spellcheck='false')

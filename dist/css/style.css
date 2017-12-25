@@ -1,0 +1,139 @@
+/*noinspection CssUnknownTarget*/
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body textarea {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+body {
+  font-family: 'Inconsolata', monospace;
+}
+
+body, html, textarea {
+  height: 100%
+}
+
+button:focus, input:focus, input[type=range]:focus, textarea:focus {
+  outline: 0
+}
+
+*, :after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+html {
+  background: #fff;
+  color: #383838;
+  font-size: 100%
+}
+
+body {
+  padding: 0;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.reddis-cli ::-moz-selection {
+  background: #111
+}
+
+.reddis-cli ::selection {
+  background: #111
+}
+
+button, nav input, textarea {
+  background: inherit
+}
+
+button, input[type=text], textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  border: transparent
+}
+
+.reddis-cli input[type=text],
+.reddis-cli textarea {
+  display: block;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+  color: #999
+}
+
+:-moz-placeholder {
+  color: #999
+}
+
+::-moz-placeholder {
+  color: #999
+}
+
+:-ms-input-placeholder {
+  color: #999
+}
+
+textarea {
+  resize: none;
+  line-height: 1.4;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: #ccc;
+}
+
+.reddis-tree {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50vw;
+  height: 100vh;
+  padding: 30px 10px 15px;
+
+}
+
+.reddis-cli {
+  position: fixed;
+  top: 0;
+  left: 50vw;
+  width: 50vw;
+  height: 100vh;
+  padding: 0 10px 0 20px;
+  background-color: #383838;
+}
+
+.toggle {
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: bold;
+}
+ul {
+  padding-left: 1em;
+  line-height: 1.5em;
+  /*list-style-image: dot;*/
+}
+
+ul > ul {
+  margin-left: 0 !important;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.reddis-tree .fa {
+  padding-top: 2px;
+}
+
+.reddis-tree li, .reddis-tree span {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
