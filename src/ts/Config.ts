@@ -1,5 +1,5 @@
 let Config : any = {
-    "ReddisServerUrl" : "ws://localhost:8081/"
+    "ReddisServerUrl" : "ws://fomin-redis-server.herokuapp.com:80/"
 };
 
 export {Config};
